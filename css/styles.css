@@ -3,3 +3,42 @@
 
 
 
+body #main_content{
+	font-size: 80%;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	letter-spacing: 0.15em;
+	background-color: hsla(75, 100%, 28%, 0.76);
+	max-width: 960em;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	}
+	
+h1 #top_main {
+	align-content: center;
+	color: hsla(0,25%,98%,1.00);
+	background-color: hsla(75, 100%, 28%, 0.76);
+}
+
+div#navigation ul {
+	inline-box-align: initial;
+	list-style-type: none;
+	text-align: center; ;
+}
+
+
+p {
+	text-align: center;
+	}
+	
+a {
+	color: #000000;
+	text-transform: uppercase;
+	text-decoration: none;
+	}
+	
+a:hover {
+	color: #cc3333;
+	background-color: #ffffff;
+	}
+	
