@@ -1,44 +1,91 @@
 @charset "UTF-8";
 /* CSS Document */
 
+body {
+	position: relative;
+		
+}
 
-
-body #main_content{
-	font-size: 80%;
-	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	letter-spacing: 0.15em;
-	background-color: hsla(75, 100%, 28%, 0.76);
-	max-width: 960em;
-	-webkit-box-sizing: content-box;
-	-moz-box-sizing: content-box;
-	box-sizing: content-box;
-	}
+header {
+	position: relative;
 	
-h1 #top_main {
-	align-content: center;
-	color: hsla(0,25%,98%,1.00);
-	background-color: hsla(75, 100%, 28%, 0.76);
 }
 
-div#navigation ul {
-	inline-box-align: initial;
-	list-style-type: none;
-	text-align: center; ;
+nav {
+	position: relative;
+	align-content: stretch;
+		
 }
 
+nav {
+	
+}
+
+section {
+	
+	
+}
+
+figure {
+	float: left;
+	
+	
+}
+
+article {
+	
+	
+}
+
+blockquote {
+	color: hsla(219,98%,48%,1.00);
+	border-color: 1px hsla(0,0%,0%,1.00);
+	
+	
+}
+
+footer {
+	
+	
+}
+
+figcaption {
+	
+	
+}
 
 p {
-	text-align: center;
-	}
 	
+	
+}
+
+ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 0em 3em;
+	background-color: hsla(340,6%,90%,0.89);
+	border: thin;
+	border-color: hsla(0,0%,0%,1.00);
+	 
+}
+
 a {
-	color: #000000;
-	text-transform: uppercase;
 	text-decoration: none;
-	}
-	
+	color: hsla(0,0%,0%,1.00);
+}
+
 a:hover {
-	color: #cc3333;
-	background-color: #ffffff;
-	}
+	color: hsla(231,93%,49%,1.00);
+	text-shadow: 1px 1px #000000;
 	
+}
+
+h1 {
+	color: hsla(0,0%,0%,1.00);
+	text-shadow: 2px 2px #A19D9D;
+}
+
+h2 {
+	position: 2px relative;
+	
+}
