@@ -104,8 +104,7 @@ h3 {
 	color: hsla(0,0%,0%,1.00);
 	text-shadow: 2px 2px #A19D9D;	
 }
-
-
+/*Image Property & Values*/
 img {
 	border: 1px solid hsla(0,0%,100%,1.00);
 	position: relative;
