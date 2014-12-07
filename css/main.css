@@ -1,6 +1,5 @@
 @charset "UTF-8";
 /* CSS Document */
-
 body {
 	position: relative;
 }
@@ -12,18 +11,10 @@ header {
 /* NAVIGATION PROPERTIES & VALUES */
 nav {
 	position: relative;
-	align-content: stretch;
 	border: 2px solid #a1a1a1;
     padding: 0px 0px; 
-    background: #ff;
+    background: #ffffff;
     border-radius: 15px;	
-}
-/* SECTION PROPERTIES & VALUES */
-section {
-	border: 2px solid #a1a1a1;
-    padding: 10px 40px; 
-    background: #dddddd;
-    border-radius: 25px;	
 }
 /* FIGURE PROPERTIES & VALUES */
 figure {
@@ -48,7 +39,7 @@ blockquote {
 	z-index: -1;
 	color: hsla(224,100%,48%,1.00);
 	border: 1px solid hsla(229,98%,50%,1.00);
-	background: #ff;
+	background: #ffffff;
 	padding: 5px 5px 5px 5px;
 	border-radius: 15px;		
 }
@@ -62,7 +53,7 @@ ol {
 	z-index: -1;
 	color: hsla(359,100%,48%,1.00);
 	border: 1px solid hsla(359,100%,48%,1.00);
-	background: #ff;
+	background: #ffffff;
 	padding: 5px 5px 5px 5px;
 	border-radius: 15px;	
 }
@@ -84,8 +75,7 @@ a {
 /* LINK HOVER STATE Rules */
 a:hover {
 	color: hsla(231,93%,49%,1.00);
-	text-shadow: 1px 1px #000000;
-	
+	text-shadow: 1px 1px #000000;	
 }
 /* HEADING 1 Rules */
 h1 {
@@ -104,8 +94,7 @@ h3 {
 	color: hsla(0,0%,0%,1.00);
 	text-shadow: 2px 2px #A19D9D;	
 }
-
-
+/*Image Property & Values*/
 img {
 	border: 1px solid hsla(0,0%,100%,1.00);
 	position: relative;
